@@ -7,7 +7,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	background-color: #340134;
+	background-image: linear-gradient(to right, #0C0148, #340134 , #0C0148);
 	padding-top: 6px;
 	padding-bottom: 6px;
 }
@@ -51,6 +51,7 @@ h1{
 	justify-content: center;
 	margin-left: 10px;
 	padding-top: 5px;
+
 }
 
 @media (min-width: 900px){
@@ -179,6 +180,7 @@ a:hover{
 
 .cuerpo{
 	background-color: #94024A;
+	padding-top: 5px;
 }
 
 .introduccion{
@@ -235,6 +237,8 @@ a:hover{
 	font-family: arial;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	animation-name: mi_animacion;
+	animation-duration: 30s;
 }
 
 
@@ -329,6 +333,8 @@ a:hover{
 	font-family: arial;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	animation-name: mi_animacion;
+	animation-duration: 30s;
 }
 
 .pag4{
@@ -344,6 +350,8 @@ a:hover{
 	font-family: arial;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	animation-name: mi_animacion;
+	animation-duration: 30s;
 }
 
 .pag5{
@@ -359,6 +367,8 @@ a:hover{
 	font-family: arial;
 	padding-top: 3px;
 	padding-bottom: 3px;
+	animation-name: mi_animacion;
+	animation-duration: 30s;
 }
 
 .formulario{
@@ -374,6 +384,14 @@ a:hover{
 .fin{
 	padding-top: 25px;
 	padding-bottom: 25px;
-
 }
 
+@keyframes mi_animacion {
+	from{
+		background-color: #030026;
+	}
+
+	to{
+		background-color: #80021D;
+	}
+}
