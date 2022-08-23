@@ -61,6 +61,7 @@ h1{
 		background-color: transparent;
 	}
 
+
 .menu{
 	display: flex;
 	align-items: center ;
@@ -387,15 +388,5 @@ a:hover{
 		height: 140px;
 		margin-left: 10px;
 		padding-top: 5px;
-	}
-}
-
-
-@media (min-width: 900px){
-	
-	.titulo{
-		text-align: center;
-		padding-top: 30px;
-		padding-bottom: 30px;
 	}
 }
