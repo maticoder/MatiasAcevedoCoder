@@ -1,0 +1,392 @@
+* {
+	box-sizing: border-box;
+}
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+	background-image: linear-gradient(to right, #0C0148, #340134 , #0C0148);
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+
+h1{
+	color: white;
+	font-weight: 900;
+	font-size: 30px;
+	font-style: normal; 
+	background-color: black;
+	font-family: 'arial', sans-serif;
+}
+
+.titulo{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+.titulo{
+	color: white;
+	font-weight: 900;
+	font-size: 30px;
+	font-style: normal; 
+	background-color: black;
+	font-family: 'arial', sans-serif;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	margin-left: 10px;
+	padding-top: 5px;
+
+}
+
+
+.menu_btn{
+		display: none;
+		color: black;
+		font-size: 18px;
+		border: none;
+		padding: 10px 20px;
+		padding-left: 30px;
+		background-image: url('../imagenes/menu.jpg');
+		background-repeat: no-repeat;
+		background-position: left center;
+		background-color: transparent;
+	}
+
+
+.menu{
+	display: flex;
+	align-items: center ;
+	justify-content: center;
+}
+
+.menu{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.menu ul{
+	display: flex 1;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	justify-content: center;
+}
+
+
+.menu li{
+	color: ghostwhite;
+	font-weight: 500;
+	font-size: 16px;
+	font-style: normal; 
+	background-color: black;
+	font-family: 'Roboto', sans-serif;
+	margin-right: 50px;
+	padding: 0;
+	border-width: 1px;
+	border-color: darkblue;
+	border-style: solid;
+	display: inline-block;
+}
+
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	font-weight: bold;
+	font-size: 18px;
+	color: ghostwhite;
+	text-align: center;
+}
+
+.inicio1{
+	text-align: right;
+}
+
+.foto1{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.cuerpo{
+	background-color: #94024A;
+	padding-top: 5px;
+}
+
+.introduccion{
+	text-align: center;
+	color: white;
+	font-weight: 100;
+	font-size: 16px;
+	font-style: normal; 
+	background-color: #030026;
+	font-family: 'Roboto', sans-serif;
+}
+
+.introduccion{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-right: 15px;
+	margin-left: 15px;
+	border-width: 1px;
+	border-color: whitesmoke;
+	border-style: solid;
+}
+
+.foto2{
+	padding-top: 4px;
+}
+
+.copy{
+	text-align: center;
+	color: white;
+	font-weight: 100;
+	font-size: 12px;
+	font-style: normal; 
+	background-color: #030026;
+	font-family: 'Roboto', sans-serif;
+}
+
+.copy{
+	padding-top: 2px;
+	padding-bottom: 2px;
+
+}
+
+
+.pag2{
+	background-color: #0C0148;
+}
+
+.titulo2{
+	font-weight: bold;
+	font-size: 20px;
+	color: ghostwhite;
+	text-align: center;
+	background-color: #030026;
+	font-family: arial;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	animation-name: mi_animacion;
+	animation-duration: 30s;
+}
+
+
+.equipos{
+	row-gap:  10px;
+	justify-content: center;
+	column-gap: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-weight: 500;
+	font-family: roboto;	
+	text-align: center;
+}
+
+.equipo1{
+	color: white;
+	font-weight: 500;
+	font-family: roboto;	
+	text-align: center;
+}
+
+
+.equipos2{
+	row-gap:  10px;
+	justify-content: center;
+	column-gap: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.equipo2{
+	color: white;
+	font-weight: 500;
+	font-family: roboto;
+	text-align: center;	
+}
+
+
+
+.pag3{
+	background-color: #0C0148;
+}
+
+.titulo3{
+	font-weight: bold;
+	font-size: 20px;
+	color: ghostwhite;
+	text-align: center;
+	background-color: #030026;
+	font-family: arial;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	animation-name: mi_animacion;
+	animation-duration: 30s;
+}
+
+.pag4{
+	background-color: #0C0148;
+}
+
+.titulo4{
+	font-weight: bold;
+	font-size: 20px;
+	color: ghostwhite;
+	text-align: center;
+	background-color: #030026;
+	font-family: arial;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	animation-name: mi_animacion;
+	animation-duration: 30s;
+}
+
+.pag5{
+	background-color: #0C0148;
+}
+
+.titulo5{
+	font-weight: bold;
+	font-size: 20px;
+	color: ghostwhite;
+	text-align: center;
+	background-color: #030026;
+	font-family: arial;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	animation-name: mi_animacion;
+	animation-duration: 30s;
+}
+
+.formulario{
+	color: white;
+	font-weight: 600;
+	font-family: arial;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.fin{
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+@keyframes mi_animacion {
+	from{
+		background-color: #030026;
+	}
+
+	to{
+		background-color: #80021D;
+	}
+}
+
+@media (min-width: 650px){
+
+	.equipos{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		row-gap:  10px;
+		justify-content: center;
+		column-gap: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
+		font-weight: 500;
+		font-family: roboto;	
+		text-align: center;
+	}
+
+	.equipo1{
+		color: white;
+		font-weight: 500;
+		font-family: roboto;	
+		text-align: center;
+
+	}
+
+	.equipos2{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		row-gap:  10px;
+		justify-content: center;
+		column-gap: 10px;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+
+	.equipo2{
+		color: white;
+		font-weight: 500;
+		font-family: roboto;
+		text-align: center;	
+	}
+}
+
+@media (max-width: 900px){
+	
+	.menu_btn{
+		display: inline-block;
+
+	}
+
+	.menu{
+		display: flex;
+		align-items: center ;
+		justify-content: center;
+	}
+
+	.menu{
+		padding-top: 3px;
+		padding-bottom: 3px;
+	}
+
+	.menu ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: none;
+
+	}
+
+
+	.menu li{
+		color: ghostwhite;
+		font-weight: 500;
+		font-size: 16px;
+		font-style: normal; 
+		background-color: black;
+		font-family: 'Roboto', sans-serif;
+		margin-right: 50px;
+		padding: 0;
+		border-width: 1px;
+		border-color: darkblue;
+		border-style: solid;
+		display: inline-block;
+	}
+}
+
+@media (min-width: 900px){
+	
+	.logo{
+		position: absolute;
+		border: 1px solid black;
+		width: 100px;
+		height: 140px;
+		margin-left: 10px;
+		padding-top: 5px;
+	}
+}
