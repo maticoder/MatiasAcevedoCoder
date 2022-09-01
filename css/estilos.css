@@ -9,20 +9,7 @@ body {
   padding-bottom: 6px; }
 
 h1 {
-  color: white;
-  font-weight: 900;
-  font-size: 30px;
-  font-style: normal;
-  background-color: black;
-  font-family: 'arial', sans-serif; }
-
-.titulo {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px; }
-
-.titulo {
-  color: white;
+  color: ghostwhite;
   font-weight: 900;
   font-size: 30px;
   font-style: normal;
@@ -35,57 +22,61 @@ h1 {
   margin-left: 10px;
   padding-top: 5px; }
 
-.menu_btn {
-  display: none;
-  color: black;
-  font-size: 18px;
-  border: none;
-  padding: 10px 20px;
-  padding-left: 30px;
-  background-image: url("../imagenes/menu.jpg");
-  background-repeat: no-repeat;
-  background-position: left center;
-  background-color: transparent; }
-
-.menu {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.menu {
-  padding-top: 3px;
-  padding-bottom: 3px; }
-
-.menu ul {
-  display: flex 1;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  justify-content: center; }
-
-.menu li {
-  color: ghostwhite;
-  font-weight: 500;
-  font-size: 16px;
+.titulo {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: 900;
+  font-size: 30px;
   font-style: normal;
   background-color: black;
-  font-family: 'Roboto', sans-serif;
-  margin-right: 50px;
-  padding: 0;
-  border-width: 1px;
-  border-color: darkblue;
-  border-style: solid;
-  display: inline-block; }
+  font-family: 'arial', sans-serif; }
 
-a {
-  text-decoration: none;
-  color: white; }
-
-a:hover {
-  font-weight: bold;
-  font-size: 18px;
-  color: ghostwhite;
-  text-align: center; }
+.menu {
+  background-image: linear-gradient(to right, #0C0148, #340134, #0C0148);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 3px;
+  padding-bottom: 3px; }
+  .menu .menu_btn {
+    display: flex 1;
+    color: black;
+    font-size: 18px;
+    border: none;
+    padding: 10px 20px;
+    padding-left: 30px;
+    background-image: url("../imagenes/menu.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: transparent; }
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center; }
+  .menu li {
+    color: ghostwhite;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 50px;
+    padding: 0;
+    border-width: 1px;
+    border-color: darkblue;
+    border-style: solid;
+    display: inline-block; }
+  .menu a {
+    text-decoration: none;
+    color: white; }
+  .menu a:hover {
+    font-weight: bold;
+    font-size: 18px;
+    color: ghostwhite;
+    text-align: center; }
 
 .inicio1 {
   text-align: right; }
@@ -97,43 +88,34 @@ a:hover {
 .cuerpo {
   background-color: #94024A;
   padding-top: 5px; }
-
-.introduccion {
-  text-align: center;
-  color: white;
-  font-weight: 100;
-  font-size: 16px;
-  font-style: normal;
-  background-color: #030026;
-  font-family: 'Roboto', sans-serif; }
-
-.introduccion {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-right: 15px;
-  margin-left: 15px;
-  border-width: 1px;
-  border-color: whitesmoke;
-  border-style: solid; }
-
-.foto2 {
-  padding-top: 4px; }
+  .cuerpo .introduccion {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: ghostwhite;
+    font-weight: 100;
+    font-size: 16px;
+    font-style: normal;
+    background-color: #030026;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-width: 1px;
+    border-color: ghostwhite;
+    border-style: solid; }
+  .cuerpo .foto2 {
+    padding-top: 4px; }
 
 .copy {
   text-align: center;
-  color: white;
+  color: ghostwhite;
   font-weight: 100;
   font-size: 12px;
   font-style: normal;
   background-color: #030026;
-  font-family: 'Roboto', sans-serif; }
-
-.copy {
+  font-family: 'Roboto', sans-serif;
   padding-top: 2px;
   padding-bottom: 2px; }
-
-.pag2 {
-  background-color: #0C0148; }
 
 .titulo2 {
   font-weight: bold;
@@ -147,7 +129,12 @@ a:hover {
   animation-name: mi_animacion;
   animation-duration: 30s; }
 
-.equipos {
+.buscar_seleccion {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.grupo1 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
@@ -156,145 +143,131 @@ a:hover {
   font-weight: 500;
   font-family: roboto;
   text-align: center; }
+  .grupo1 .equipo1 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo1 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos2 {
+.grupo2 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
+  .grupo2 .equipo2 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo2 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos3 {
+.grupo3 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
+  .grupo3 .equipo3 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo3 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos4 {
+.grupo4 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
+  .grupo4 .equipo4 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo4 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos5 {
+.grupo5 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
+  .grupo5 .equipo5 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo5 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos6 {
+.grupo6 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
+  .grupo6 .equipo6 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo6 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos7 {
+.grupo7 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
+  .grupo7 .equipo7 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo7 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos8 {
+.grupo8 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
+  .grupo8 .equipo8 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo8 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos9 {
+.grupo9 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
+  .grupo9 .equipo9 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo9 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos10 {
+.grupo10 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
+  .grupo10 .equipo10 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
-.equipo10 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.equipos11 {
+.grupo11 {
   row-gap: 10px;
   justify-content: center;
   column-gap: 10px;
   margin-right: 10px;
   margin-left: 10px; }
-
-.equipo11 {
-  color: white;
-  font-weight: 500;
-  font-family: roboto;
-  text-align: center; }
-
-.pag3 {
-  background-color: #0C0148; }
+  .grupo11 .equipo11 {
+    color: ghostwhite;
+    font-weight: 500;
+    font-family: roboto;
+    text-align: center; }
 
 .titulo3 {
   font-weight: bold;
@@ -308,9 +281,6 @@ a:hover {
   animation-name: mi_animacion;
   animation-duration: 30s; }
 
-.pag4 {
-  background-color: #0C0148; }
-
 .titulo4 {
   font-weight: bold;
   font-size: 20px;
@@ -322,9 +292,6 @@ a:hover {
   padding-bottom: 3px;
   animation-name: mi_animacion;
   animation-duration: 30s; }
-
-.pag5 {
-  background-color: #0C0148; }
 
 .titulo5 {
   font-weight: bold;
@@ -358,187 +325,87 @@ a:hover {
     background-color: #80021D; } }
 
 @media (min-width: 650px) {
-  .equipos {
+  .grupo1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  .grupo2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  .grupo3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; }
+  .grupo4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipo1 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos2 {
+    justify-content: center; }
+  .grupo5 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo2 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos3 {
+    justify-content: center; }
+  .grupo6 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo3 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos4 {
+    justify-content: center; }
+  .grupo7 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo4 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos5 {
+    justify-content: center; }
+  .grupo8 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo5 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos6 {
+    justify-content: center; }
+  .grupo9 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo6 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos7 {
+    justify-content: center; }
+  .grupo10 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo7 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos8 {
+    justify-content: center; }
+  .grupo11 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo8 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos9 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo9 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos10 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo10 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; }
-  .equipos11 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    row-gap: 10px;
-    justify-content: center;
-    column-gap: 10px;
-    margin-right: 10px;
-    margin-left: 10px; }
-  .equipo11 {
-    color: white;
-    font-weight: 500;
-    font-family: roboto;
-    text-align: center; } }
+    justify-content: center; } }
 
-@media (max-width: 900px) {
-  .menu_btn {
-    display: inline-block; }
+@media (min-width: 900px) {
   .menu {
     display: flex;
     align-items: center;
-    justify-content: center; }
-  .menu {
+    justify-content: center;
     padding-top: 3px;
     padding-bottom: 3px; }
-  .menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: none; }
-  .menu li {
-    color: ghostwhite;
-    font-weight: 500;
-    font-size: 16px;
-    font-style: normal;
-    background-color: black;
-    font-family: 'Roboto', sans-serif;
-    margin-right: 50px;
-    padding: 0;
-    border-width: 1px;
-    border-color: darkblue;
-    border-style: solid;
-    display: inline-block; } }
+    .menu .menu_btn {
+      display: none; }
+    .menu ul {
+      display: flex 1;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      justify-content: center; }
+    .menu li {
+      font-weight: 500;
+      font-size: 16px;
+      font-style: normal;
+      background-color: black;
+      font-family: 'Roboto', sans-serif;
+      margin-right: 50px;
+      padding: 0;
+      border-width: 1px;
+      border-color: darkblue;
+      border-style: solid;
+      display: inline-block; }
+    .menu a {
+      text-decoration: none;
+      color: white; }
+    .menu a:hover {
+      font-weight: bold;
+      font-size: 18px;
+      color: ghostwhite;
+      text-align: center; } }
 
 @media (min-width: 900px) {
   .logo {
     position: absolute;
     border: 1px solid black;
     width: 100px;
-    height: 140px;
-    margin-left: 10px;
-    padding-top: 5px; } }
+    height: 140px; } }
