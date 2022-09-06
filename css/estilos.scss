@@ -154,11 +154,10 @@ a:hover{
 
 }
 
-
-.titulo2{
+@mixin titulosok {
 	font-weight: bold;
 	font-size: 20px;
-	color: ghostwhite;
+	color: $sexto-color;
 	text-align: center;
 	background-color: $color-secundiario;
 	font-family: arial;
@@ -166,6 +165,10 @@ a:hover{
 	padding-bottom: 3px;
 	animation-name: mi_animacion;
 	animation-duration: 30s;
+}
+
+.titulo2{
+	@include titulosok
 }
 
 .buscar_seleccion{
@@ -174,214 +177,124 @@ a:hover{
 	justify-content: center;
 }
 
-.grupo1{
+@mixin gruposok {
 	row-gap:  10px;
 	justify-content: center;
 	column-gap: 10px;
 	margin-right: 10px;
 	margin-left: 10px;
-	font-weight: 500;
-	font-family: roboto;	
-	text-align: center;
+}
 
-.equipo1{
+@mixin equiposok {
 	color: $sexto-color;
 	font-weight: 500;
 	font-family: roboto;	
 	text-align: center;
+}
+
+.grupo1 {
+	@include gruposok;
+	font-weight: 500;
+	font-family: roboto;	
+	text-align: center;
+
+.equipo1 {
+	@include equiposok
 }
 }
 
 .grupo2{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo2{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok
 }
 }
 
 .grupo3{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo3{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok
 }
 }
 
 .grupo4{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo4{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok
 }
 }
 
 .grupo5{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo5{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok
 }
 }
 
 .grupo6{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo6{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok
 }
 }
 
 .grupo7{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo7{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok	
 }
 }
 
 .grupo8{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo8{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok
 }
 }
 
 .grupo9{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo9{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok	
 }
 }
 
 .grupo10{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo10{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok
 }
 }
 
 .grupo11{
-	row-gap:  10px;
-	justify-content: center;
-	column-gap: 10px;
-	margin-right: 10px;
-	margin-left: 10px;
+	@include gruposok
 
 .equipo11{
-	color: $sexto-color;
-	font-weight: 500;
-	font-family: roboto;
-	text-align: center;	
+	@include equiposok
 }
 }
-
 
 .titulo3{
-	font-weight: bold;
-	font-size: 20px;
-	color: $sexto-color;
-	text-align: center;
-	background-color: $color-secundiario;
-	font-family: arial;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	animation-name: mi_animacion;
-	animation-duration: 30s;
+	@include titulosok
 }
 
 
 .titulo4{
-	font-weight: bold;
-	font-size: 20px;
-	color: $sexto-color;
-	text-align: center;
-	background-color: $color-secundiario;
-	font-family: arial;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	animation-name: mi_animacion;
-	animation-duration: 30s;
+	@include titulosok
 }
 
 
 .titulo5{
-	font-weight: bold;
-	font-size: 20px;
-	color: $sexto-color;
-	text-align: center;
-	background-color: $color-secundiario;
-	font-family: arial;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	animation-name: mi_animacion;
-	animation-duration: 30s;
+	@include titulosok
 }
 
 .formulario{
