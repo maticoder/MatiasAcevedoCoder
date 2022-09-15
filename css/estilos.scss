@@ -50,9 +50,9 @@ h1{
 }
 
 
-.menu{
+.dropdown-menu{
 	background-image: linear-gradient(to right, $cuarto-color, $quinto-color, $cuarto-color);
-	display: flex;
+	display: none;
 	align-items: center ;
 	justify-content: center;
 	padding-top: 3px;
@@ -65,7 +65,6 @@ h1{
 	border: none;
 	padding: 10px 20px;
 	padding-left: 30px;
-	background-image: url('../imagenes/menu.jpg');
 	background-repeat: no-repeat;
 	background-position: left center;
 	background-color: transparent;
@@ -90,7 +89,6 @@ li{
 	border-width: 1px;
 	border-color: darkblue;
 	border-style: solid;
-	display: inline-block;
 }
 
 a{
@@ -129,8 +127,8 @@ a:hover{
 	background-color: $color-secundiario;
 	padding-top: 30px;
 	padding-bottom: 30px;
-	margin-right: 15px;
-	margin-left: 15px;
+	margin-right: 25px;
+	margin-left: 25px;
 	border-width: 1px;
 	border-color: $sexto-color;
 	border-style: solid;
@@ -168,7 +166,7 @@ a:hover{
 }
 
 .titulo2{
-	@include titulosok
+	@include titulosok;
 }
 
 .buscar_seleccion{
@@ -199,102 +197,102 @@ a:hover{
 	text-align: center;
 
 .equipo1 {
-	@include equiposok
+	@include equiposok;
 }
 }
 
 .grupo2{
-	@include gruposok
+	@include gruposok;
 
 .equipo2{
-	@include equiposok
+	@include equiposok;
 }
 }
 
 .grupo3{
-	@include gruposok
+	@include gruposok;
 
 .equipo3{
-	@include equiposok
+	@include equiposok;
 }
 }
 
 .grupo4{
-	@include gruposok
+	@include gruposok;
 
 .equipo4{
-	@include equiposok
+	@include equiposok;
 }
 }
 
 .grupo5{
-	@include gruposok
+	@include gruposok;
 
 .equipo5{
-	@include equiposok
+	@include equiposok;
 }
 }
 
 .grupo6{
-	@include gruposok
+	@include gruposok;
 
 .equipo6{
-	@include equiposok
+	@include equiposok;
 }
 }
 
 .grupo7{
-	@include gruposok
+	@include gruposok;
 
 .equipo7{
-	@include equiposok	
+	@include equiposok;	
 }
 }
 
 .grupo8{
-	@include gruposok
+	@include gruposok;
 
 .equipo8{
-	@include equiposok
+	@include equiposok;
 }
 }
 
 .grupo9{
-	@include gruposok
+	@include gruposok;
 
 .equipo9{
-	@include equiposok	
+	@include equiposok;	
 }
 }
 
 .grupo10{
-	@include gruposok
+	@include gruposok;
 
 .equipo10{
-	@include equiposok
+	@include equiposok;
 }
 }
 
 .grupo11{
-	@include gruposok
+	@include gruposok;
 
 .equipo11{
-	@include equiposok
+	@include equiposok;
 }
 }
 
 .titulo3{
-	@include titulosok
+	@include titulosok;
 }
 
 
 .titulo4{
-	@include titulosok
+	@include titulosok;
 }
 
 
 .titulo5{
-	@include titulosok
+	@include titulosok;
 }
 
 .formulario{
@@ -390,17 +388,38 @@ a:hover{
 
 
 @media (min-width: 900px){
+
+.logo{
+	display: flex;
+	position: absolute;
+	align-items: center ;
+	justify-content: center;
+	border: 1px solid black;
+	width: 100px;
+	height: 140px;
+}
 	
-.menu{
+.dropdown{
 	display: flex;
 	align-items: center ;
 	justify-content: center;
-	padding-top: 3px;
-	padding-bottom: 3px;
+	padding-top: 50px;
+	padding-bottom: 25px;
+
+
+.dropdown-menu{
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	box-sizing: border-box;
+	border-style: none;
+
+}
 
 .menu_btn{
 	display: none;
-	}
+}
+
 
 ul{
 	display: flex 1;
@@ -416,7 +435,6 @@ li{
 	font-style: normal; 
 	background-color: black;
 	font-family: 'Roboto', sans-serif;
-	margin-right: 50px;
 	padding: 0;
 	border-width: 1px;
 	border-color: darkblue;
@@ -436,14 +454,5 @@ a:hover{
 	text-align: center;
 }
 }
-}
 
-@media (min-width: 900px){
-	
-	.logo{
-		position: absolute;
-		border: 1px solid black;
-		width: 100px;
-		height: 140px;
-	}
 }
